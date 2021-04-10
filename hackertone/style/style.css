@@ -1,10 +1,284 @@
+body{
+
+}
+
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+input{
+	text-decoration: none;
+	border: 1px solid grey;
+}
+
+input {outline:none;}
+
+.fa + input {
+  padding-left: 26px;
+}
+
 .center{
 	margin: 0 auto;
 }
 
+.lesson_btn{
+	width: 20px;
+    height: 20px;
+	background: url(../img/icon/arrow_right.png) no-repeat;
+	background-size: 100%;
+}
+
+
+/* SHADOW */
+.bx-shadow{
+	box-shadow: 10px 7px 30px 1px grey;
+}
+
+.bx-head{
+	box-shadow: 10px 5px 15px 1px grey;
+}
+
+.bx-less{
+	box-shadow: 10px 7px 15px 1px grey;
+}
+/* SHADOW */
+
+
+
+/* BORDER */
+.b-b-2{
+	border-bottom: 2px solid black;
+}
+
+.br-10{
+	border-radius: 10px;
+}
+
+.br-t-10{
+	border-radius: 10px 10px 0 0;
+}
+
+.br-b-10{
+	border-radius: 0 0 10px 10px;
+}
+/* END BORDER */
+
+
+
+/* OPACITY */
+.op-0{
+	opacity: 1;
+}
+.op-3{
+	opacity: 0.6;
+}
+/* END OPACITY */
+
+
+/* RGBA */
+.rgb-pr{
+	background: rgba(125, 125, 125, .6);
+}
+/* END RGBA */
+
+
+
+
+
+/* BACKGROUND */
+.bg-5{
+	background: url(https://www.mime.asia/wp-content/uploads/2021/02/27.-RevoU-is-Ready-to-Enliven-the-Edtech-Startup-Market-in-Indonesia.jpg);
+	background-size: 100%;
+}
+
+.bg-6{
+	background: url(https://spdload.com/wp-content/uploads/2020/05/Top-20-Best-EdTech-Companies-Startups_cover.png);
+	background-size: 100%;
+}
+
+.bg-7{
+	background: url(https://techcrunch.com/wp-content/uploads/2017/09/edtech.jpg);
+	background-size: 100%;
+}
+
+.bg-8{
+	background: url(http://www.blended.blog/wp-content/uploads/2018/05/transformation-models-news.png);
+	background-size: 100%;
+}
+
+.bg-9{
+	background: url(https://inc42.com/wp-content/uploads/2020/04/Edtech-Feature-1024x768.jpg);
+	background-size: 100%;
+}
+
+.bg-10{
+	background: url(https://cdn.discordapp.com/attachments/829942097721294882/830415654049939486/unknown.png);
+	background-size: 100%;
+}
+
+.bg-11{
+	background: url(https://images.squarespace-cdn.com/content/v1/5475f6eae4b0821160f6ac3e/1584463916402-5WZAP9GSDJ3QG8H5WKIV/ke17ZwdGBToddI8pDm48kLPwUvoZkNP49-1BtSXhuM0UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcqpBeoaxdN84IPN0D4kFbk2g0GQLAWxuo8oPh1o2kWqsvWnkQ9nrvvwDtpwKu66Pf/edtech+coronavirus.jpg);
+	background-size: 100%;
+}
+
+.bg-0{
+	background: url(https://leverageedu.com/blog/wp-content/uploads/2019/11/How-is-Technology-Changing-the-Face-of-Education-.jpg);
+	background-size: 100%;
+}
+
+.bg-mh{
+	background: url(../img/my_hobbies.png);
+	background-size: 100%;
+}
+
+.bg-pmh{
+	background: url(../img/pmh.png);
+	background-size: 100%;
+}
+
+.bg-af{
+	background: url(https://hachette.imgix.net/books/9781843622710.jpg?auto=compress,format);
+	background-size: 100%;
+}
+
+.bg-jtr{
+	background: url(../img/jtr.png);
+	background-size: 100%;
+}
+/* END BACKGROUND */
+
+
+
+
 
 /* HEIGHT */
+.he-13p{
+	height: 13%;
+}
+
+.he-25p{
+	height: 25%;
+}
+
+.he-30p{
+	height: 30%;
+}
+
+.he-30{
+	height: 30px;
+}
+
+.he-35p{
+	height: 35%;
+}
+
 .he-50{
 	height: 50px;
 }
+
+.he-70{
+	height: 70px;
+}
+
+.he-70p{
+	height: 70%;
+}
+
+.he-75p{
+	height: 75%;
+}
+
+.he-100{
+	height: 100px;
+}
+
+.he-150{
+	height: 150px
+}
+
+.he-200{
+	height: 200px;
+}
+
+.he-250{
+	height: 250px;
+}
+
+.he-300{
+	height: 300px;
+}
+
+.he-350{
+	height: 350px;
+}
+
+.he-400{
+	height: 400px;
+}
+
+.he-450{
+	height: 450px;
+}
+
+.he-500{
+	height: 500px;
+}
+
+.he-600{
+	height: 600px;
+}
+
+.he-800{
+	height: 800px;
+}
+
+.he-600{
+	height: 600px;
+}
 /* END HEIGHT */
+
+
+
+/* WIDTH */
+.wi-300{
+	width: 300px;
+}
+
+.wi-100p{
+
+}
+/* END WIDTH */
+
+
+/* MARGIN */
+.mlt-2p{
+	margin-left: 2%;
+}
+
+.mlt-5p{
+	margin-left: 5%;
+}
+
+.mlt-7p{
+	margin-left: 7%;
+}
+
+.mlt-10p{
+	margin-left: 10%;
+}
+/* END MARGIN */
+
+
+
+
+/* TEXT */
+.contur{
+	text-shadow: black 0 0 5px;
+}
+
+.fs-24{
+	font-size: 20px;
+}
+/* END TEXT */
