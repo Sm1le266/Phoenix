@@ -48,20 +48,40 @@ input {outline:none;}
 
 
 /* BORDER */
+.b-2{
+	border: 2px solid #C5B7B7;
+}
+
 .b-b-2{
 	border-bottom: 2px solid black;
+}
+
+.b-b-2-g{
+	border-bottom: 2px solid #D4D4D4;
 }
 
 .br-10{
 	border-radius: 10px;
 }
 
+.br-20{
+	border-radius: 20px;
+}
+
 .br-t-10{
 	border-radius: 10px 10px 0 0;
 }
 
+.br-t-20{
+	border-radius: 20px 20px 0 0;
+}
+
 .br-b-10{
 	border-radius: 0 0 10px 10px;
+}
+
+.br-b-20{
+	border-radius: 0 0 20px 20px;
 }
 /* END BORDER */
 
@@ -147,6 +167,47 @@ input {outline:none;}
 	background: url(../img/jtr.png);
 	background-size: 100%;
 }
+
+
+.bg-rus{
+	background: url(../img/rus.png);
+	background-size: 100%;
+}
+
+.bg-en{
+	background: url(../img/en.png);
+	background-size: 100%;
+}
+
+.bg-math{
+	background: url(../img/math.png);
+	background-size: 100%;
+}
+
+.bg-it{
+	background: url(../img/it.png);
+	background-size: 100%;
+}
+
+.bg-lit{
+	background: url(../img/lit.png);
+	background-size: 100%;
+}
+
+.bg-phis{
+	background: url(../img/phi.png);
+	background-size: 100%;
+}
+
+.bg-chem{
+	background: url(../img/che.png);
+	background-size: 100%;
+}
+
+.bg-bio{
+	background: url(../img/bio.png);
+	background-size: 100%;
+}
 /* END BACKGROUND */
 
 
@@ -156,6 +217,10 @@ input {outline:none;}
 /* HEIGHT */
 .he-13p{
 	height: 13%;
+}
+
+.he-25{
+	height: 25px;
 }
 
 .he-25p{
@@ -172,6 +237,10 @@ input {outline:none;}
 
 .he-35p{
 	height: 35%;
+}
+
+.he-40{
+	height: 40px;
 }
 
 .he-50{
@@ -202,12 +271,28 @@ input {outline:none;}
 	height: 200px;
 }
 
+.he-230{
+	height: 230px;
+}
+
 .he-250{
 	height: 250px;
 }
 
+.he-270{
+	height: 270px
+}
+
 .he-300{
 	height: 300px;
+}
+
+.he-320{
+	height: 320px;
+}
+
+.he-340{
+	height: 340px;
 }
 
 .he-350{
@@ -242,6 +327,10 @@ input {outline:none;}
 
 
 /* WIDTH */
+.wi-50{
+	width: 50px;
+}
+
 .wi-300{
 	width: 300px;
 }
@@ -268,9 +357,23 @@ input {outline:none;}
 .mlt-10p{
 	margin-left: 10%;
 }
+
+.mlt-15p{
+	margin-left: 15%;
+}
+
+.mtt-15p{
+	margin-top: 15%;
+}
 /* END MARGIN */
 
 
+
+/* PADDING */
+.ptt-15p{
+	padding-top: 15%;
+}
+/* END PADDING */
 
 
 /* TEXT */
