@@ -1,8 +1,8 @@
-main - no
-student - no
-teacher - no
-new - no
-task - yes
-tch_class - yes
-tch_lesson - yes
-tch_lessons - yes
+main - +-
+student - +-
+teacher - +-
+new - +
+task - +
+tch_class - +
+tch_lesson - +
+tch_lessons - +

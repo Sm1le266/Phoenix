@@ -13,6 +13,10 @@ input{
 	border: 1px solid grey;
 }
 
+.zi-4{
+	z-index: 2;
+}
+
 input {outline:none;}
 
 .fa + input {
@@ -54,6 +58,10 @@ input {outline:none;}
 
 .b-b-2{
 	border-bottom: 2px solid black;
+}
+
+.b-b-2-gr{
+	border-bottom: 2px solid grey;
 }
 
 .b-b-2-g{
@@ -208,6 +216,11 @@ input {outline:none;}
 	background: url(../img/bio.png);
 	background-size: 100%;
 }
+
+.bg-sched{
+	background: url(../img/schedule.png);
+	background-size: 100%;
+}
 /* END BACKGROUND */
 
 
@@ -257,6 +270,14 @@ input {outline:none;}
 
 .he-75p{
 	height: 75%;
+}
+
+.he-75{
+	height: 75px;
+}
+
+.he-90{
+	height: 90px;
 }
 
 .he-100{
@@ -331,6 +352,14 @@ input {outline:none;}
 	width: 50px;
 }
 
+.wi-75{
+	width: 75px;
+}
+
+.wi-250{
+	width: 250px;
+}
+
 .wi-300{
 	width: 300px;
 }
@@ -360,6 +389,14 @@ input {outline:none;}
 
 .mlt-15p{
 	margin-left: 15%;
+}
+
+.mlt-78p{
+	margin-left: 78%;
+}
+
+.mtt-20{
+	margin-top: 70px;
 }
 
 .mtt-15p{
